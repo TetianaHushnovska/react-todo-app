@@ -29,12 +29,15 @@ A simple To Do application built according to the provided Figma design.
 ## 🚀 Getting Started
 
 ### 1️⃣ Install dependencies
+
 npm install
 
 2️⃣ Run development server
+
 npm run dev
 
 3️⃣ Build for production
+
 npm run build
 
 ## Theme Support
