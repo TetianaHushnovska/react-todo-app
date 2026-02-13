@@ -29,18 +29,13 @@ A simple To Do application built according to the provided Figma design.
 ## 🚀 Getting Started
 
 ### 1️⃣ Install dependencies
-
-```bash
-npm install```
+npm install
 
 2️⃣ Run development server
-```bash
-npm run dev```
+npm run dev
 
 3️⃣ Build for production
-```bash
 npm run build
-```
 
 ## Theme Support
 The app supports light and dark themes using TailwindCSS dark mode and Redux state management.
