@@ -40,11 +40,12 @@ npm run dev
 bash
 Copy code
 npm run build
+```
 
-🌙 Theme Support
+ Theme Support
 The app supports light and dark themes using TailwindCSS dark mode and Redux state management.
 
-📌 Notes
+ Notes
 This project was built as part of a technical task to demonstrate:
 
 State management with Redux
@@ -54,7 +55,3 @@ Component architecture
 Responsive UI implementation
 
 Clean code practices
-
-yaml
-Copy code
-```
