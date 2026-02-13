@@ -7,6 +7,82 @@ body {
   height: 100%;
 }
 
+html,
+body,
+* {
+  cursor:
+    url("/img/cursor.png") 16 16,
+    auto !important;
+}
+
 body {
   margin: 0;
+}
+
+@layer base {
+  * {
+      @apply transition-colors duration-300;
+    }
+  body {
+    @apply bg-[#F7F7F7] text-[#252525];
+  }
+
+  input::placeholder {
+    color: #C3C1E5;
+  }
+
+  input {
+    color: #6C63FF;
+    background-color: transparent;
+  }
+
+  input[type="checkbox"]{
+    background-color: transparent;
+  }
+
+  button {
+    border: 1px solid #6C63FF;
+    border-radius: 5px;
+    color: #F7F7F7;
+    background-color: #6C63FF;
+  }
+
+  button:hover {
+    background-color: #5850DD;
+    box-shadow: 0px 0px 4px 0px #6C63FF;
+  }
+
+  li:last-child {
+    border: none;
+  }
+
+  .dark body {
+    @apply bg-[#252525] text-white;
+  }
+
+  .dark input {
+    color: #FFFFFF;
+  }
+
+  .dark input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .dark button {
+    background-color: #6C63FF;
+    color: white;
+  }
+
+  .dark button:hover {
+    background-color: #7D75FF;
+    box-shadow: 0px 0px 6px 0px #6C63FF;
+  }
+
+  .dark html,
+  .dark body,
+  .dark  * {
+      cursor:
+        url("/img/cursor2.png") 0 0,
+        auto !important;
+    }
 }
